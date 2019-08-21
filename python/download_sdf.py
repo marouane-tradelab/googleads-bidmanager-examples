@@ -59,7 +59,7 @@ def main(doubleclick_bid_manager, file_path, body):
 
 
 if __name__ == '__main__':
-  request_body = {'fileTypes': ['LINE_ITEM']}
+  request_body = {'fileTypes': ['LINE_ITEM'], 'version': '4'}
   valid_filter_types = ['ADVERTISER_ID', 'INSERTION_ORDER_ID', 'LINE_ITEM_ID']
 
   # If your download requests time out, you may need to filter to reduce the
